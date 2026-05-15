@@ -5,7 +5,7 @@ find_package(QT NAMES Qt6)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Gui)
 find_package(Qt${QT_VERSION_MAJOR} OPTIONAL_COMPONENTS Multimedia Quick QuickControls2 Svg)
 
-qt_standard_project_setup(REQUIRES 6.5)
+qt_standard_project_setup(REQUIRES 6.8)
 
 SET(BIGINT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/zxing/bigint)
 SET(WIN32_DIR  ${CMAKE_CURRENT_SOURCE_DIR}/zxing/win32/zxing)
